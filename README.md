@@ -37,7 +37,7 @@ The dataset contains water quality measurements from various locations and dates
 
 ## 🛠 Usage
 
-1. Clone this repository and place your dataset (e.g., `water_data.csv`) in the project folder.
+1. Clone this repository and place your dataset ((e.g., `afa2e701598d20110228.csv`) a.k.a water_data_set . csv)  in the project folder.
 2. Open the notebook or script in [Google Colab](https://colab.research.google.com/) or Jupyter.
 3. Run the cells step by step.  
    *(If using Colab, upload your CSV when prompted.)*
