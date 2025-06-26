@@ -139,6 +139,8 @@ The following files are saved for future use:
 Use `joblib.load()` to reload these in future weeks.
 
 ---
+## Model Link
+'''https://drive.google.com/drive/folders/12pdYBNH2bp2hXX5EZgt01hVWmHhKTelK?usp=sharing'''
 
 ## ✅ Summary
 
