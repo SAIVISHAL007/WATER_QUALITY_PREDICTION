@@ -1,4 +1,4 @@
-# WEEK-1
+# WEEK-1 & WEEK-2
 # Water Quality Multi-Output Regression
 
 This project demonstrates a complete machine learning workflow for predicting multiple water quality pollutants using a Random Forest regressor. The workflow includes data exploration, preprocessing, feature engineering, model training, evaluation, and visualization.
