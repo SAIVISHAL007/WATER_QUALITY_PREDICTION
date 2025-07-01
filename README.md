@@ -1,4 +1,3 @@
-# WEEK-1 & WEEK-2
 # Water Quality Multi-Output Regression
 
 This project demonstrates a complete machine learning workflow for predicting multiple water quality pollutants using a Random Forest regressor. The workflow includes data exploration, preprocessing, feature engineering, model training, evaluation, and visualization.
@@ -54,16 +53,15 @@ Install with:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
-# 🌊 Week 2 - Water Quality Prediction using Random Forest Regressor
+# 🌊Water Quality Prediction using Random Forest Regressor
 
-## 📅 Internship Week: 23 June 2025  
 **Mentor-Guided Task:** Enhancing pollutant prediction using Random Forest and station/year-based features.
 
 ---
 
 ## 🧠 Objective
 
-The aim of Week 2 is to improve our predictive model for water pollutants by:
+The aim is to improve our predictive model for water pollutants by:
 - Cleaning and encoding the data properly.
 - Using **station ID** and **year** as predictors.
 - Training a **MultiOutput Random Forest Regressor**.
@@ -144,9 +142,35 @@ Use `joblib.load()` to reload these in future weeks.
 
 ## ✅ Summary
 
-Week 2 focused on improving prediction performance by simplifying inputs and ensuring a production-ready pipeline. While some pollutants like NO2 still need improvement, the overall model generalizes reasonably well and is now deployment-ready.
+Focused on improving prediction performance by simplifying inputs and ensuring a production-ready pipeline. While some pollutants like NO2 still need improvement, the overall model generalizes reasonably well and is now deployment-ready.
 
 ---
+# 💧 Water Pollutants Predictor app
+
+This is a Streamlit-based web application that predicts **water pollutant levels** (O₂, NO₃, NO₂, SO₄, PO₄, and CL) based on **station ID** and **year**. It uses a trained `RandomForestRegressor` model wrapped in a `MultiOutputRegressor`.
+
+---
+
+## 📁 Project Structure
+├── app.py # Streamlit app for prediction
+├── pollution_model.pkl # Trained model file
+├── model_columns.pkl # Feature column structure used in training
+├── data.csv (optional) # Original dataset (not included here)
+└── README.md # You're reading it :)
+---
+## 📌 Features
+
+- 📅 Input year
+- 🏭 Select station ID (1 to 22)
+- 🧠 Predict 6 pollutant concentrations
+- 📊 Visualize predictions with bar chart
+- 💡 Metrics displayed in a clean layout
+---
+## 🛠️ How to Run
+
+1. **Install dependencies** (preferably in a virtual environment):
+   ```bash
+   pip install streamlit pandas numpy scikit-learn matplotlib joblib
 
 
 ## 📄 License
